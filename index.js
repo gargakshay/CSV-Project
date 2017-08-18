@@ -7,6 +7,7 @@ var app = express();
 app.set('port', (process.env.PORT || 5000));
 
 app.use(express.static(path.join(__dirname, 'angular1/dist/')));
+console.log("path******************88", path.join(__dirname, 'angular1/dist/')))
 // app.use('/', index);
 
 app.set('view engine', 'html');
