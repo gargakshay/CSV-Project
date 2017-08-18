@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, 'angular1/dist/')));
 console.log("path******************88", path.join(__dirname, 'angular1/dist/'));
 // app.use('/', index);
 
-app.set('view engine', 'html');
+// app.set('view engine', 'html');
 
 app.get('/', function(req, res, next){
     res.send('index.html11111111');
