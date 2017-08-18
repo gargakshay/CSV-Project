@@ -1,0 +1,17 @@
+{
+  "name": "CSV-Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": { 
+    "csvtojson": "^1.1.7",
+    "express": "^4.15.4",
+    "multer": "^1.3.0"
+  }
+}
