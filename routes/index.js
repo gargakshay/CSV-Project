@@ -12,9 +12,9 @@ var csv = require('csvtojson');
 
 var router = express.Router();
 
-router.get('/', function(req, res, next){
-    res.send('index.html');
-});
+// router.get('/', function(req, res, next){
+//     res.send('index.html');
+// });
 
 router.post('/upload', function(req, res, next){
 
