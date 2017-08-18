@@ -9,6 +9,8 @@ app.set('port', (process.env.PORT || 5000));
 // app.use(express.static(path.join(__dirname, 'angular1/dist/')));
 // app.use('/', index);
 
+app.set('view engine', 'html');
+
 app.get('/', function(req, res, next){
     res.send('index.html');
 });

@@ -1,7 +1,10 @@
 {
   "name": "CSV-Project",
   "version": "1.0.0",
-  "description": "",
+  "description": "First prj",
+  "engines": {
+    "node": "6.11.1"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
